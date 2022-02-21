@@ -36,5 +36,9 @@ public class DragDrop {
         Actions action = new Actions(driver);
         action.dragAndDrop(Click_on_dragme, Click_on_drop).perform();
         Interactions_TAB.click();
+
+
+
+
     }
 }
