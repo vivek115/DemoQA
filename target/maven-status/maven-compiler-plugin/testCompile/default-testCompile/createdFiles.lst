@@ -1,0 +1,13 @@
+TestCases\VerifyMenu.class
+TestCases\VerifyFrames.class
+TestCases\VerifyModalDialogs.class
+TestCases\VerifyWidgets.class
+TestCases\TestBase.class
+TestCases\VerifyAlert.class
+TestCases\VerfiyDragDrop.class
+TestCases\VerifyTabs.class
+TestCases\VerifyElement.class
+TestCases\VerifySlider.class
+TestCases\VerifyWebtables.class
+TestCases\VerifyWindows.class
+TestCases\VerifyForms.class

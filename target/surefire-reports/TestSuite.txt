@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 32.266 s <<< FAILURE! - in TestSuite
+Test1(TestCases.VerfiyDragDrop)  Time elapsed: 1.157 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <div class="avatar mx-auto white">...</div> is not clickable at point (107, 595). Other element would receive the click: <footer>...</footer>
+  (Session info: chrome=98.0.4758.102)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'MSDT009', ip: '10.10.30.198', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [557713b34b17b162f9a8b725ac5fc664, clickElement {id=2d59b783-ecd8-4d2d-98c0-00c172e1dc12}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:62464}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62464/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (557713b34b17b162f9a8b725ac5fc664)] -> xpath: (//div[@class='avatar mx-auto white'])[1]]
+Session ID: 557713b34b17b162f9a8b725ac5fc664
+	at TestCases.VerfiyDragDrop.Test1(VerfiyDragDrop.java:10)
+
